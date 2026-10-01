@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Kavizz V2Ray Store - fast, stable and secure connectivity packages." />
+  <title>Kavizz V2Ray Store</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="particles" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="brand" href="#home">
+      <img src="assets/kavizz-logo.jpeg" alt="Kavizz V2Ray logo" />
+      <span>Kavizz <b>V2Ray Store</b></span>
+    </a>
+    <nav>
+      <a href="#plans">Plans</a>
+      <a href="#payment">Payment</a>
+      <a href="#contact">Contact</a>
+      <a class="nav-btn" href="https://wa.me/94756914485?text=Hi%20Kavizz%20V2Ray%20Store%2C%20I%20want%20to%20order%20a%20package." target="_blank" rel="noopener">WhatsApp</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">FAST • STABLE • SECURE</span>
+        <h1>Kavizz <span>V2Ray</span><br>Store</h1>
+        <p>Stay connected with flexible SIM and router plans, plus USA VPN options.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#plans">View Packages</a>
+          <a class="btn ghost" href="https://wa.me/94756914485?text=Hi%20Kavizz%20V2Ray%20Store%2C%20please%20send%20me%20the%20available%20packages." target="_blank" rel="noopener">Order on WhatsApp</a>
+        </div>
+      </div>
+      <div class="hero-art">
+        <img src="assets/kavizz-banner.jpeg" alt="Kavizz V2Ray Store banner" />
+      </div>
+    </section>
+
+    <section class="features">
+      <div><strong>⚡</strong><span>High Speed</span></div>
+      <div><strong>🛡️</strong><span>Secure Connection</span></div>
+      <div><strong>🌐</strong><span>Global Access</span></div>
+      <div><strong>📱</strong><span>All Devices</span></div>
+      <div><strong>💬</strong><span>Support Available</span></div>
+    </section>
+
+    <section id="plans" class="section">
+      <div class="section-title"><span>OUR PACKAGES</span><h2>Choose your plan</h2><p>Simple pricing. Easy ordering.</p></div>
+      <div class="plan-grid">
+        <article class="plan-card sim">
+          <div class="card-head"><div class="icon">▣</div><div><span>SIM PLANS</span><small>Airtel / Dialog / Hutch</small></div></div>
+          <div class="plans">
+            <button class="plan" data-plan="200 GB SIM Plan - Rs. 350"><span><b>200 GB</b><small>SIM Plan</small></span><strong>Rs. 350</strong></button>
+            <button class="plan" data-plan="300 GB SIM Plan - Rs. 450"><span><b>300 GB</b><small>SIM Plan</small></span><strong>Rs. 450</strong></button>
+            <button class="plan" data-plan="Unlimited GB + USA VPN SIM Plan - Rs. 650"><span><b>Unlimited GB</b><small>🇺🇸 + USA VPN</small></span><strong>Rs. 650</strong></button>
+          </div>
+        </article>
+        <article class="plan-card router">
+          <div class="card-head"><div class="icon">⌁</div><div><span>ROUTER PLANS</span><small>Dialog &amp; Fiber SLT</small></div></div>
+          <div class="plans">
+            <button class="plan" data-plan="500 GB Router Plan - Rs. 500"><span><b>500 GB</b><small>Router Plan</small></span><strong>Rs. 500</strong></button>
+            <button class="plan" data-plan="Unlimited GB + USA VPN Router Plan - Rs. 800"><span><b>Unlimited GB</b><small>🇺🇸 + USA VPN</small></span><strong>Rs. 800</strong></button>
+          </div>
+        </article>
+      </div>
+      <p class="order-note">Tap any package to start an order in WhatsApp.</p>
+    </section>
+
+    <section id="payment" class="section payment-section">
+      <div class="section-title"><span>PAYMENT</span><h2>Bank transfer details</h2><p>Make the payment, then send the receipt to WhatsApp.</p></div>
+      <div class="payment-card">
+        <div class="bank-logo">BOC</div>
+        <div class="bank-info">
+          <div><label>Bank</label><b>Bank of Ceylon (BOC)</b></div>
+          <div><label>Account Holder</label><b>TKDP Kumara</b></div>
+          <div><label>Account Number</label><b id="account">96987466</b><button class="copy" data-copy="96987466">Copy</button></div>
+          <div><label>Branch</label><b>Mathugama</b></div>
+        </div>
+      </div>
+      <div class="payment-warning">⚠️ Please verify the account details before making a transfer. After payment, send your receipt and selected package via WhatsApp.</div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="contact-card">
+        <div><span class="eyebrow">NEED HELP?</span><h2>Contact Kavizz</h2><p>For orders and support, contact us directly.</p></div>
+        <div class="contact-actions">
+          <a class="contact-item" href="tel:+94756914485"><span>📞</span><div><small>Call</small><b>075 691 4485</b></div></a>
+          <a class="contact-item" href="https://wa.me/94756914485" target="_blank" rel="noopener"><span>💬</span><div><small>WhatsApp</small><b>075 691 4485</b></div></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>© 2026 Kavizz V2Ray Store</span><span>Fast • Stable • Secure</span></footer>
+
+  <div class="toast" id="toast"></div>
+  <script src="script.js"></script>
+</body>
+</html>
